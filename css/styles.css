@@ -1,0 +1,271 @@
+/* this was .header */
+.jumbotron {
+  /* 30vh = 30% of view port height */
+  /* ActiveME: */
+font-family: DaysOne-Regular;
+font-size: 48px;
+color: #FFFFFF;
+letter-spacing: -2.74px;
+text-align: center;
+/* Shape: */
+background: #FFFFFF;
+  padding: 5vh 5%;
+  background-image: url("../images/running lady.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  opacity: .75;
+}
+
+.display-2 {
+  color: #00BAB3;
+  padding: 1.5rem;
+}
+
+.display-6 {
+  font-family: Ubuntu;
+  padding: 5rem;
+}
+
+
+.benefits {
+  font-family: DaysOne-Regular;
+  color: #545454;
+  padding: 1.5rem;
+  margin-bottom: .5rem;
+}
+
+.h1 {
+  margin: .5rem 0 5rem 0;
+  font-family: DaysOne-Regular;
+  padding-bottom: 1.5rem;
+}
+
+
+.bg-nav {
+  background-color: #00BAB3;
+}
+
+.navbar-brand {
+  /* color: #111; */
+}
+
+.navbar-toggler {
+  border: 1px solid white;
+}
+
+.nav-item a {
+  color: white;
+  font-size: 1.2rem;
+  font-family: DaysOne-Regular;
+}
+
+.abs-center-x {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tracker {
+  padding: 4rem;
+}
+
+.goals {
+  padding: 4rem;
+}
+
+.workouts {
+  padding: 4rem;
+}
+
+.row {
+  margin: 65px 0px;
+}
+
+.app benefits {
+  color: #545454;
+}
+
+h3 {
+  padding-top: 3rem;
+  padding-bottom: .25rem;
+}
+
+p {
+  font-size: 1.4rem;
+  font-family: Ubuntu;
+  margin-bottom; 0rem;
+}
+
+
+.display-2 {
+  color: #FFFFF;
+  text-shadow: 1px 1px 3px #000000;
+  font-size: 2rem;
+
+}
+
+.display-4 {
+  color: #00BAB3;
+  text-shadow: 1px 1px 3px
+  #000000;
+}
+
+/* FOOTER STYLES */
+.footer a:hover i{
+  color: #545454;
+  background-color: white;
+}
+
+.footer a:visited i{
+  color: white;
+  background-color: black;
+}
+
+.footer a:active i{
+  color: #F67800;
+  background-color: 045855;
+}
+
+.footer {
+  background-color: #00BAB3;
+  padding: 1rem 0rem;
+}
+
+.fab {
+  font-size: 25px;
+  color: #FFFFFF;
+  border: 3px solid #ffffff;
+  padding: 6.5px 2.5px;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+}
+
+.btn-cta {
+  font-size: 20px;
+}
+
+.btn-orange {
+  background-color: #F67800;
+}
+
+.testimonials {
+  background-image: url("../images/running feet.png");
+  padding: 5rem 0;
+  margin-top: 0rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-family: DaysOne-Regular
+  color: #545454
+}
+
+
+.img-testimonial img {
+  border-radius: 1rem;
+  opacity: 1;
+}
+
+.testimonials-carousel{
+    background-color: #cccccc;
+    color: #545454;
+    font-family: DaysOne-Regular;
+}
+
+.blockquote-reverse {
+  font-family: Ubuntu;
+  color: #545454;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  padding: 5rem 4rem 5rem 2rem;
+}
+
+blockquote p {
+  font-size: 1.5rem;
+  color: #545454;
+  font-family: Ubuntu;
+  padding: 2rem;
+}
+
+.blockquote-footer {
+  font-size: 1.50rem;
+  color: #00BAB3;
+  font-family: Ubuntu;
+}
+
+blockquote footer cite {
+  font-size: 1rem;
+  color: #545454;
+  font-family: Ubuntu;
+}
+
+.text-testimonial {
+  padding: 1rem 0; n
+}
+
+
+
+.form-group {
+  font-family: Ubuntu;
+}
+
+input {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.btn-joinbutton {
+  background-color: #F67800;
+  color: white;
+  padding: .5rem 6rem;
+  font-size: 1.8rem;
+  font-family: DaysOne-Regular;
+  border-radius: 1rem;
+}
+
+.newsletter {
+  color: #545454;
+  font-family: DaysOne-Regular;
+  padding: .5rem;
+}
+
+.h1, h1 {
+  font-size: 1.5rem;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+  .display-2 {
+    font-size: 4rem;
+  }
+  .btn-cta {
+    font-size: 1rem;
+  }
+  .h1, h1 {
+    font-size: 2.5rem;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .display-2 {
+    font-size: 6rem;
+  }
+  .btn-cta {
+    font-size: 2rem;
+  }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
