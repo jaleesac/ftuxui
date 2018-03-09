@@ -2,7 +2,7 @@
 .jumbotron {
   /* 30vh = 30% of view port height */
   /* ActiveME: */
-font-family: DaysOne-Regular;
+font-family: 'Days One', sans-serif;
 font-size: 48px;
 color: #FFFFFF;
 letter-spacing: -2.74px;
@@ -23,13 +23,13 @@ background: #FFFFFF;
 }
 
 .display-6 {
-  font-family: Ubuntu;
+  font-family: 'Ubuntu', sans-serif;;
   padding: 5rem;
 }
 
 
 .benefits {
-  font-family: DaysOne-Regular;
+  font-family: 'Days One', sans-serif;
   color: #545454;
   padding: 1.5rem;
   margin-bottom: .5rem;
@@ -37,7 +37,7 @@ background: #FFFFFF;
 
 .h1 {
   margin: .5rem 0 5rem 0;
-  font-family: DaysOne-Regular;
+  font-family: 'Days One', sans-serif;
   padding-bottom: 1.5rem;
 }
 
@@ -57,7 +57,7 @@ background: #FFFFFF;
 .nav-item a {
   color: white;
   font-size: 1.2rem;
-  font-family: DaysOne-Regular;
+  font-family: 'Days One', sans-serif;
 }
 
 .abs-center-x {
@@ -93,7 +93,7 @@ h3 {
 
 p {
   font-size: 1.4rem;
-  font-family: Ubuntu;
+  font-family: 'Ubuntu', sans-serif;;
   margin-bottom; 0rem;
 }
 
@@ -171,11 +171,21 @@ p {
 .testimonials-carousel{
     background-color: #cccccc;
     color: #545454;
-    font-family: DaysOne-Regular;
+    font-family: 'Days One', sans-serif;
+}
+
+.carousel{
+  padding-bottom: 7rem;
+}
+
+.carousel-indicators li{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
 }
 
 .blockquote-reverse {
-  font-family: Ubuntu;
+  font-family: 'Ubuntu', sans-serif;;
   color: #545454;
   font-size: 1.25rem;
   margin-bottom: 1rem;
@@ -185,20 +195,21 @@ p {
 blockquote p {
   font-size: 1.5rem;
   color: #545454;
-  font-family: Ubuntu;
+  font-family: 'Ubuntu', sans-serif;;
   padding: 2rem;
 }
 
 .blockquote-footer {
   font-size: 1.50rem;
   color: #00BAB3;
-  font-family: Ubuntu;
+  font-family: 'Ubuntu', sans-serif;;
+  padding-right: 2rem;
 }
 
 blockquote footer cite {
   font-size: 1rem;
   color: #545454;
-  font-family: Ubuntu;
+  font-family: 'Ubuntu', sans-serif;;
 }
 
 .text-testimonial {
@@ -208,7 +219,7 @@ blockquote footer cite {
 
 
 .form-group {
-  font-family: Ubuntu;
+  font-family: 'Ubuntu', sans-serif;;
 }
 
 input {
@@ -221,13 +232,13 @@ input {
   color: white;
   padding: .5rem 6rem;
   font-size: 1.8rem;
-  font-family: DaysOne-Regular;
+  font-family: 'Days One', sans-serif;
   border-radius: 1rem;
 }
 
 .newsletter {
   color: #545454;
-  font-family: DaysOne-Regular;
+  font-family: 'Days One', sans-serif;
   padding: .5rem;
 }
 
